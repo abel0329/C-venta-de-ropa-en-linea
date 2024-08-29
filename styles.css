@@ -1,0 +1,98 @@
+/* Centrar el título principal de la página */
+.title-container {
+    text-align: center; /* Centra el texto horizontalmente */
+       color: red;
+       border: 10px;color: aliceblue;
+       background-color:red;
+       font-style: italic;
+       
+   }
+   
+   
+   
+   .item {
+       flex: 1; /* Hace que todos los elementos .item tengan el mismo tamaño */
+       border: 1px solid #ddd; /* Bordes para visualización */
+       padding: 20px; /* Espaciado interno */
+       box-sizing: border-box; /* Incluir relleno y borde en el tamaño total */
+       display: flex; /* Flexbox para alineación interna */
+       flex-direction: column; /* Colocar elementos en columna */
+       align-items: center; /* Alinear elementos al centro horizontalmente */
+       justify-content: space-between; /* Espacio entre elementos */
+       margin: 40px; /* Espaciado entre contenedores */
+       background-color: rgba(242, 242, 242, 0.2);
+   
+   }
+   
+   /* Estilo para las imágenes dentro de los productos */
+   .item img {
+       max-width: 50%; /* Ancho máximo al 100% del contenedor */
+       height: 50%; /* Altura automática para mantener proporción */
+   }
+   
+   /* Estilo para los botones dentro de los productos */
+   .item button {
+       padding: 10px 20px; /* Relleno interno del botón */
+       background-color: white; /* Color de fondo del botón */
+       color: red; /* Color del texto del botón */
+       border: none; /* Sin borde */
+       cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+   }
+   
+   /* Estilo para los textos dentro de los productos */
+   .item h2, .item p {
+       text-align: center; /* Alinear textos al centro */
+       color: white;
+       
+   }
+   
+   .item p {
+   color: black;    
+   }
+   
+   
+   body{
+   
+       background-image: url(images/fondo.jpg);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repea
+   
+   
+   
+   }
+   
+   
+   /* Estilo para el contenedor principal */
+   .container {
+       display: flex; /* Para que los elementos se dispongan horizontalmente */
+       
+   }
+   
+   nav{
+   
+       background-color: rgba(242, 242, 242, 0.2);
+        
+   }
+   
+   /* Estilo para el botón de tallas */
+   .size-btn {
+       margin-top: 10px; /* Espacio superior para el botón */
+   }
+   
+   /* Estilo para el formulario de tallas */
+   .size-form {
+       margin-top: 10px; /* Espacio superior para el formulario */
+       display: none; /* Ocultar el formulario por defecto */
+   }
+   
+   .size-form label {
+       display: block; /* Muestra la etiqueta en un bloque separado */
+       margin-bottom: 5px; /* Espacio inferior para la etiqueta */
+   }
+   
+   .size-form input {
+       padding: 5px; /* Espacio interno en el campo de texto */
+       border: 1px solid #ddd; /* Borde del campo de texto */
+       border-radius: 4px; /* Bordes redondeados del campo de texto */
+   }

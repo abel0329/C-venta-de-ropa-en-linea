@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNDO EXCLUSIVO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="title-container">
+            <h1>"MUNDO EXCLUSIVO"</h1>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="productos.html">PRODUCTOS</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="contactos.html">CONTACTOS</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+ 
+    <div class="container">
+
+        <div class="item">
+            <img src="images/camisa roja.jpg" alt="camisa elegante para dama">
+            <h2>CAMISAS</h2>
+            <p>Descubre nuestra camisa elegante, confeccionada con los mejores materiales para brindarte confort y
+                estilo incomparables. Su diseño refinado, detalles cuidadosamente seleccionados y corte impecable hacen
+                de esta camisa una opción imprescindible en cualquier guardarropa sofisticado. Disponible en una
+                variedad de colores clásicos, es perfecta para cualquier ocasión</p>
+            <button class="size-btn">TALLAS</button>
+            <div class="size-form" style="display: none;">
+                <label for="size-camisa">Introduce tu talla:</label>
+                <input type="text" id="size-camisa" placeholder="Ej: S, M, L, XL">
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="images/pantalon morado.webp" alt="">
+            <h2>PANTALON</h2>
+            <p>Haz una declaración de estilo con nuestro pantalón elegante para hombre. Confeccionado con una mezcla de
+                tejidos de alta calidad, este pantalón combina comodidad y sofisticación en igual medida. Su corte
+                ajustado ofrece una silueta moderna y favorecedora, mientras que los detalles cuidadosamente elaborados,
+                como los bolsillos delanteros discretos y los acabados impecables, añaden un toque de elegancia
+                adicional.</p>
+            <button class="size-btn">TALLAS</button>
+            <div class="size-form" style="display: none;">
+                <label for="size-pantalon">Introduce tu talla:</label>
+                <input type="text" id="size-pantalon" placeholder="Ej: S, M, L, XL">
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="images/zapatos.jfif" alt="">
+            <h2>CALZADO</h2>
+            <p>¡Destaca con estilo con nuestros zapatos elegantes! Hechos de cuero de primera calidad y con un diseño
+                atemporal, son la opción perfecta para cualquier ocasión. ¡Hazte con ellos ahora y añade un toque de
+                sofisticación a tu armario!</p>
+            <button class="size-btn">TALLAS</button>
+            <div class="size-form" style="display: none;">
+                <label for="size-calzado">Introduce tu talla:</label>
+                <input type="text" id="size-calzado" placeholder="Ej: 38, 39, 40, 41">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="subscribe">
+        <p>¡AÚN NO ESTÁS REGISTRADO! "HAZLO YA"</p>
+    </div>
+    <form action="">
+        <input type="email" placeholder="correo electrónico" required>
+        <button type="submit">registrarse</button>
+    </form>
+
+    <div class="terms">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">Acepto <a href="#">Términos y condiciones</a>, <a href="#">Política de privacidad</a> y <a
+                href="#">Tratamiento de datos personales</a></label>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
